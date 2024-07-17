@@ -1,0 +1,6 @@
+﻿#!/usr/bin/env python3
+import re
+import sys
+
+if __name__ == "__main__":
+    print(''.join([f'\\x{opcode}' for opcode in re.compile(r'\b[0-9a-f]{2}\b', re.IGNORECASE).findall(sys.stdin.read())]))  
