@@ -3,7 +3,7 @@
 git clone https://github.com/Minypoulpe/opcode2hex.git
 cd opcode2hex
 chmod +x opcode2hex
-cp ./opcode2hex /usr/local/bin/opcode2hex
+sudo cp ./opcode2hex /usr/local/bin/opcode2hex
 ```
 ### Usage
 ```sh
