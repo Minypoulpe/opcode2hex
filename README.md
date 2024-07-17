@@ -1,0 +1,12 @@
+### Installation 
+```sh
+git clone https://github.com/Minypoulpe/opcode2hex.git
+cd opcode2hex
+chmod +x opcode2hex
+cp ./opcode2hex /usr/local/bin/opcode2hex
+```
+### Usage
+```sh
+objdump -D shellcode | opcode2hex
+\x6a\x46\x58\x66\xbb\xb7\x04\x66\xb9\x53\x04\xcd\x80\x31\xd2\x6a\x0b\x58\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x52\x53\x89\xe1\xcd\x80
+```
