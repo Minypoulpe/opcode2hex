@@ -1,9 +1,9 @@
 ### Installation 
 ```sh
 git clone https://github.com/Minypoulpe/opcode2hex.git
-cd opcode2hex
-chmod +x opcode2hex
-sudo cp ./opcode2hex /usr/local/bin/opcode2hex
+chmod +x opcode2hex/opcode2hex
+sudo cp ./opcode2hex/opcode2hex /usr/local/bin/opcode2hex
+rm -rf opcode2hex
 ```
 ### Usage
 ```sh
